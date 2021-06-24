@@ -49,7 +49,7 @@ function fullscreenMode(event){
 }
 
 
-window.addEventListener('keydown', keyplaying);
+window.addEventListener('keypress', keyplaying);
 
 window.addEventListener('click', clickplaying);
 
