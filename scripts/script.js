@@ -1,12 +1,12 @@
 let isFired = false;
 
 function keyplaying(event){
-    if (!fired) {
+    if (!isFired) {
     const audio = document.querySelector(`audio[data-letter="${event.key}"]`);
     const key = document.querySelector(`.piano-key[data-letter="${event.key}"]`);
 
     if(!audio) return;
-    fired = true;
+    isFired = true;
     audio.currentTime = 0;
     audio.play();
 
@@ -18,7 +18,7 @@ function keyplaying(event){
 }
 
 function setFalse(event) {
-    fired = false;
+    isFired = false;
 }
 
 
