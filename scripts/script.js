@@ -15,6 +15,7 @@ function keyplaying(event){
     } else{
         key.classList.add('playing');
     }
+    }
 }
 
 function setFalse(event) {
