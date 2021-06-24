@@ -1,1 +1,1 @@
-https://shendelpavel.github.io/virtual-piano/index.html
+https://barikq.github.io/virtual-piano/
